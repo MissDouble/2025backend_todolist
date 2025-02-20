@@ -126,6 +126,6 @@ const requestListener = (req, res)=>{
 }
 
 const server = http.createServer(requestListener);//當使用者造訪網站時會被觸發 會執行requestListener函數
-server.listen(3005);
+server.listen(process.env.PORT || 3005);//左邊沒吃到的時候，就會吃右邊的設定檔 有些會看到3005自己幫你改有些不會
 
 
