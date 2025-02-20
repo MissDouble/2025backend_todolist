@@ -12,7 +12,7 @@
     "uuid": "^11.0.5"
   },
   "engines":{
-    "node":"14.x"
+    "node":"18.x"
   },
   "devDependencies": {},
   "description": ""
